@@ -1,12 +1,13 @@
 import { use } from "react";
+import { useNavigate } from "react-router";
 import AppCard from "../AppCard/AppCard";
 
 const Trending = ({ appPromise }) => {
   const appsData = use(appPromise);
 
-  const slicedData = appsData.slice(0,8)
+  const slicedData = appsData.slice(0, 8);
 
-
+  const navigate = useNavigate();
 
   return (
     <section className="max-w-360 mx-auto pb-10">
@@ -21,6 +22,14 @@ const Trending = ({ appPromise }) => {
         {slicedData.map((app) => (
           <AppCard key={app.id} app={app} />
         ))}
+      </div>
+      <div className="flex justify-center mt-10 text-white">
+        <button
+          className="bg-gradient-brand px-3 py-2 rounded-sm text-center hover:cursor-pointer"
+          onClick={() => navigate("/apps")}
+        >
+          Show All
+        </button>
       </div>
     </section>
   );

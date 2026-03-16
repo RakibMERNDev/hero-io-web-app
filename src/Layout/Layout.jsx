@@ -4,11 +4,11 @@ import NavBar from "../components/Nav/NavBar";
 
 const Layout = () => {
   return (
-    <>
+    <div className="max-w-400 mx-auto">
       <NavBar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 

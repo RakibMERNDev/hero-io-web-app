@@ -31,13 +31,14 @@ const AppContextProvider = ({ children }) => {
     toast.success("App installed Successfully");
   };
 
-  const handleUninstallApp = ({ appId }) => {
-    const newArr = installedApps.filter((arr) => arr.id !== appId);
+const handleUninstallApp = (appId) => {
+  const newArr = installedApps.filter((app) => app.id !== appId);
 
-    setInstalledApps(newArr);
-    localStorage.setItem("installedApps", JSON.stringify(newArr));
-    toast.success("App uninstalled Successfully");
-  };
+  setInstalledApps(newArr);
+  localStorage.setItem("installedApps", JSON.stringify(newArr));
+
+  toast.success("App uninstalled Successfully");
+};
 
   const value = {
     installedApps,
