@@ -73,8 +73,8 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className=" bg-gradient-brand text-white flex items-center px-4 gap-2 py-3 rounded-sm">
-          <FaGithub className="text-xl" /> <span className="font-semibold text-xl">Contribute</span>
+        <a className=" bg-gradient-brand text-white flex items-center px-4 gap-2 py-3 rounded-sm lg:text-xl">
+          <FaGithub /> <span className="font-semibold ">Contribute</span>
         </a>
       </div>
     </nav>
