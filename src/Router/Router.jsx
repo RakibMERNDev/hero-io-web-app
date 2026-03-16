@@ -1,12 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import Layout from "../Layout/Layout";
 
-
+import App from "../App";
 import AppDetailPage from "../Pages/AppDetailPage/AppDetailPage";
 import AppsPage from "../Pages/Apps/AppsPage";
 import ErrorPage from "../Pages/Error/ErrorPage";
-import App from "../App";
-
+import InstallationPage from "../Pages/InstallationPage/InstallationPage";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +33,10 @@ const router = createBrowserRouter([
           return app;
         },
         element: <AppDetailPage />,
+      },
+      {
+        path: "installation",
+        Component: InstallationPage,
       },
     ],
   },
