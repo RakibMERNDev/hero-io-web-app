@@ -5,7 +5,8 @@ Hero io is a web app that allows users to manage and explore applications with e
 ## Features
 
 1. **Install Apps**
-   Users can install apps, and a toast notification confirms when the installation is successful.
+Users can install apps, and a toast notification confirms when the installation is successful. Users cannot install the same app again unless they uninstall it first. After an app is installed, the install button is disabled for that particular app.
+
 
 2. **View Installed Apps**
    Users can see all the apps they have installed from the installation page.
