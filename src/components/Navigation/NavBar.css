@@ -1,0 +1,7 @@
+a.active {
+  background-image: linear-gradient(to bottom, #632ee3 0%, #9f62f2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: underline;
+}
