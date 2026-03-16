@@ -1,7 +1,7 @@
 import "./NavBar.css";
 
 import { FaGithub } from "react-icons/fa";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 import logo from "../../assets/logo.png";
 
@@ -60,7 +60,9 @@ const NavBar = () => {
           <img src={logo} alt="logo" className="max-w-10 max-h-10" />
           {/* text */}
 
-          <p className="text-gradient font-bold">HERO.IO</p>
+          <Link to={"/"} className="text-gradient font-bold">
+            HERO.IO
+          </Link>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">

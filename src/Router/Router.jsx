@@ -1,18 +1,38 @@
 import { createBrowserRouter } from "react-router";
 import Layout from "../Layout/Layout";
 
-import App from "../App";
+
+import AppDetailPage from "../Pages/AppDetailPage/AppDetailPage";
+import AppsPage from "../Pages/Apps/AppsPage";
 import ErrorPage from "../Pages/Error/ErrorPage";
+import Home from "../Pages/Home/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    errorElement : <ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        Component: App,
+        Component: Home,
+      },
+      {
+        path: "apps",
+        loader: () => fetch("/appsData.json"),
+        Component: AppsPage,
+      },
+      {
+        path: "apps/:appId",
+        loader: async ({ params }) => {
+          const res = await fetch("/appsData.json");
+          const data = await res.json();
+
+          const app = data.find((item) => item.id === Number(params.appId));
+
+          return app;
+        },
+        element: <AppDetailPage />,
       },
     ],
   },

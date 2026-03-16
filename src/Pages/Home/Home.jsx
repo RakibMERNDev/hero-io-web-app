@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Hero from "../../components/Hero/Hero";
 import Trending from "../../components/Trending/Trending";
 
-const appPromise = fetch("appsdata.json").then((res) => res.json());
+const appPromise = fetch("/appsData.json").then((res) => res.json());
 
 const Home = () => {
   return (
