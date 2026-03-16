@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className=" pt-3 md:pt-5">
       <div className=" text-center">
-        <div className="max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-360 mx-auto">
+        <div className="max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-360 mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
             <span>We Build</span>
             <br />
@@ -53,7 +53,7 @@ const Hero = () => {
               <img src={hero} alt="" />
             </div>
           </div>
-          <div className="bg-gradient-brand py-10 text-white full">
+          <div className="bg-gradient-brand py-10 text-white max-w-400 w-full">
             <h2 className="text-3xl lg:text-5xl font-bold">
               Trusted by Millions, Built for You
             </h2>

@@ -8,6 +8,7 @@ export default function App() {
     <div className="font-display max-w-400 mx-auto">
       <NavBar />
       <Home />
+      
     </div>
   );
 }

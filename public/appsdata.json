@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://picsum.photos/seed/spotify/100/100",
+    "image": "https://cdn.jim-nielsen.com/watchos/512/spotify-music-and-podcasts-2020-03-19.png?rf=1024",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/notion/100/100",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
     "title": "Notion",
     "companyName": "Notion Labs, Inc.",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/duolingo/100/100",
+    "image": "https://brandlogos.net/wp-content/uploads/2023/09/duolingo_icon-logo_brandlogos.net_aru6q.png",
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/figma/100/100",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
     "title": "Figma",
     "companyName": "Figma, Inc.",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/todoist/100/100",
+    "image": "https://play-lh.googleusercontent.com/GK0SwEBVqlFBpRkPjY6y_1go6E6xZzAN0Ivzfgbuf28J4TTOoOsgWnqR4oJ_RhIhsg",
     "title": "Todoist",
     "companyName": "Doist Inc.",
     "id": 5,
@@ -90,14 +90,14 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/headspace/100/100",
-    "title": "Headspace",
-    "companyName": "Headspace Health",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmH2bd11cPiuBNFm_rbNceV91aStDTGxGG2w&s",
+    "title": "VS Code",
+    "companyName": "Microsoft Corporation",
     "id": 6,
-    "description": "Meditation and sleep app to help you stress less, focus more, and sleep better. Guided sessions for every level from beginners to experts.",
+    "description": "Lightweight but powerful source code editor with built-in support for JavaScript, TypeScript, and Node.js with a rich ecosystem of extensions.",
     "size": 60.3,
     "reviews": 2345678,
-    "ratingAvg": 4.7,
+    "ratingAvg": 4.9,
     "downloads": 65000000,
     "ratings": [
       { "name": "1 star", "count": 23457 },
@@ -108,15 +108,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/robinhood/100/100",
-    "title": "Robinhood",
-    "companyName": "Robinhood Markets, Inc.",
+    "image": "https://thumbs.dreamstime.com/b/amazon-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-ai-amazon-logo-editorial-illustrative-208329107.jpg",
+    "title": "Amazon",
+    "companyName": "Amazon.com, Inc.",
     "id": 7,
-    "description": "Invest in stocks, ETFs, options, and crypto with zero commission fees. Track your portfolio and get real-time market data on the go.",
+    "description": "Shop millions of products, track orders, and get fast delivery. Access exclusive deals, Prime Video, and more all in one app.",
     "size": 89.5,
     "reviews": 3210987,
     "ratingAvg": 4.2,
-    "downloads": 50000000,
+    "downloads": 500000000,
     "ratings": [
       { "name": "1 star", "count": 192659 },
       { "name": "2 star", "count": 128439 },
@@ -126,11 +126,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/vsco/100/100",
-    "title": "VSCO",
-    "companyName": "VSCO",
+    "image": "https://images.seeklogo.com/logo-png/27/1/snapchat-logo-png_seeklogo-272745.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
     "id": 8,
-    "description": "Photo and video editor with a growing collection of preset filters and advanced editing tools. Express your creativity and share your story.",
+    "description": "Share photos and videos that disappear. Chat with friends, explore Stories, and discover content from creators around the world.",
     "size": 115.6,
     "reviews": 876543,
     "ratingAvg": 4.4,
@@ -144,11 +144,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/myfitnesspal/100/100",
-    "title": "MyFitnessPal",
-    "companyName": "MyFitnessPal, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pinterest-logo.png/240px-Pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
     "id": 9,
-    "description": "Track calories, macros, and exercise to reach your health goals. Access the world's largest food database with over 14 million items.",
+    "description": "Discover and save creative ideas for recipes, home decor, fashion, travel, and more. Build boards to organize your inspiration.",
     "size": 68.9,
     "reviews": 4567890,
     "ratingAvg": 4.5,
@@ -162,15 +162,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/grammarly/100/100",
-    "title": "Grammarly",
-    "companyName": "Grammarly, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
     "id": 10,
-    "description": "AI writing assistant that helps you write clearly and correctly. Get real-time grammar, spelling, punctuation, and style suggestions.",
+    "description": "Fast, simple, and secure messaging. Send texts, voice messages, make video calls, and share files with individuals and groups.",
     "size": 47.3,
     "reviews": 2098765,
     "ratingAvg": 4.6,
-    "downloads": 50000000,
+    "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 20988 },
       { "name": "2 star", "count": 41975 },
@@ -180,15 +180,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/canva/100/100",
-    "title": "Canva",
-    "companyName": "Canva Pty Ltd",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/240px-YouTube_Logo_2017.svg.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
     "id": 11,
-    "description": "Create stunning graphics, presentations, and social media posts with thousands of customizable templates and an intuitive drag-and-drop editor.",
+    "description": "Watch, upload, and share videos. Subscribe to your favorite channels, stream live content, and discover trending videos from around the world.",
     "size": 98.2,
     "reviews": 5432109,
     "ratingAvg": 4.8,
-    "downloads": 500000000,
+    "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 54321 },
       { "name": "2 star", "count": 54321 },
@@ -198,15 +198,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/1password/100/100",
-    "title": "1Password",
-    "companyName": "AgileBits Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Telegram_logo.svg/240px-Telegram_logo.svg.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
     "id": 12,
-    "description": "Keep all your passwords, credit cards, and personal information secure and accessible across all your devices with military-grade encryption.",
+    "description": "Cloud-based messaging app with a focus on speed and security. Send messages, photos, videos, and files of any type with end-to-end encryption.",
     "size": 34.7,
     "reviews": 654321,
     "ratingAvg": 4.7,
-    "downloads": 10000000,
+    "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 6543 },
       { "name": "2 star", "count": 9815 },
@@ -216,11 +216,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/strava/100/100",
-    "title": "Strava",
-    "companyName": "Strava, Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
     "id": 13,
-    "description": "Track your running, cycling, and swimming with GPS. Join millions of athletes, set goals, and get motivated with segment leaderboards and challenges.",
+    "description": "Connect with professionals, find jobs, and grow your career. Share your expertise, follow industry news, and network with millions worldwide.",
     "size": 73.5,
     "reviews": 3345678,
     "ratingAvg": 4.5,
@@ -234,15 +234,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/pocket/100/100",
-    "title": "Pocket",
-    "companyName": "Mozilla Corporation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/240px-Gmail_icon_%282020%29.svg.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
     "id": 14,
-    "description": "Save articles, videos, and stories from any publication or website to read or watch later, even offline. Discover personalized recommended content.",
+    "description": "Email by Google. Organize your inbox, block spam, and communicate seamlessly with smart features like Smart Compose and Priority Inbox.",
     "size": 19.4,
     "reviews": 412340,
     "ratingAvg": 4.3,
-    "downloads": 20000000,
+    "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 12370 },
       { "name": "2 star", "count": 16494 },
@@ -252,15 +252,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/zerotier/100/100",
-    "title": "Bear",
-    "companyName": "Shiny Frog Ltd.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/240px-Airbnb_Logo_B%C3%A9lo.svg.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
     "id": 15,
-    "description": "Elegant writing app for notes and long-form content. Flexible tagging system, beautiful themes, and seamless iCloud sync across all Apple devices.",
+    "description": "Find unique places to stay around the world. Book homes, apartments, and experiences hosted by locals in over 220 countries and regions.",
     "size": 27.6,
     "reviews": 231456,
     "ratingAvg": 4.8,
-    "downloads": 5000000,
+    "downloads": 50000000,
     "ratings": [
       { "name": "1 star", "count": 2315 },
       { "name": "2 star", "count": 2315 },
@@ -270,15 +270,15 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/darksky/100/100",
-    "title": "Weather Underground",
-    "companyName": "The Weather Channel",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Maps_icon_%282023%29.svg/240px-Google_Maps_icon_%282023%29.svg.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
     "id": 16,
-    "description": "Hyperlocal weather forecasts powered by a network of 250,000+ personal weather stations. Get accurate, real-time weather data for your exact location.",
+    "description": "Navigate with real-time GPS, traffic updates, and turn-by-turn directions. Explore local restaurants, businesses, and public transit routes.",
     "size": 51.8,
     "reviews": 1876543,
-    "ratingAvg": 4.4,
-    "downloads": 50000000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 37531 },
       { "name": "2 star", "count": 56296 },

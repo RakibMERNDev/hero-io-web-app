@@ -1,10 +1,29 @@
+import { use } from "react";
+import AppCard from "../AppCard/AppCard";
 
-const Trending = () => {
-    return (
-        <section className="max-w-360 mx-auto">
+const Trending = ({ appPromise }) => {
+  const appsData = use(appPromise);
 
-        </section>
-    );
+  const slicedData = appsData.slice(0,8)
+
+
+
+  return (
+    <section className="max-w-360 mx-auto bg-[]">
+      <div className="pt-10 text-center">
+        <h2 className="text-3xl lg:text-5xl font-bold">Trending Apps</h2>
+        <p className="mt-4">
+          Explore All Trending Apps on the Market developed by us
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mt-5 lg:mt-10">
+        {slicedData.map((app) => (
+          <AppCard key={app.id} app={app} />
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Trending;
