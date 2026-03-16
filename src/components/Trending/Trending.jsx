@@ -9,7 +9,7 @@ const Trending = ({ appPromise }) => {
 
 
   return (
-    <section className="max-w-360 mx-auto bg-[]">
+    <section className="max-w-360 mx-auto pb-10">
       <div className="pt-10 text-center">
         <h2 className="text-3xl lg:text-5xl font-bold">Trending Apps</h2>
         <p className="mt-4">
