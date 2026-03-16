@@ -4,7 +4,7 @@ import appError from "../../assets/App-Error.png";
 const NoAppsFound = () => {
   const navigate = useNavigate();
   return (
-    <section className="max-w-400 mx-auto min-h-screen flex flex-col justify-center items-center">
+    <section className="max-w-400 mx-auto min-h-[calc(100vh-24rem)] flex flex-col justify-center items-center">
       <img src={appError} alt="" />
       <div className="mt-3">
         <h4 className="text-5xl font-semibold">Oops, page not found!</h4>
