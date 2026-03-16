@@ -5,9 +5,9 @@ import playStore from "../../assets/playstore.png";
 
 const Hero = () => {
   return (
-    <section className="hero pt-3 md:pt-5">
-      <div className="hero-content text-center">
-        <div className="max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
+    <section className=" pt-3 md:pt-5">
+      <div className=" text-center">
+        <div className="max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-360 mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
             <span>We Build</span>
             <br />
@@ -49,19 +49,24 @@ const Hero = () => {
               </button>
             </div>
 
-            <div className="pt-5">
+            <div className="pt-5 flex justify-center">
               <img src={hero} alt="" />
             </div>
           </div>
-          <div className="bg-gradient-brand py-10 text-white">
+          <div className="bg-gradient-brand py-10 text-white full">
             <h2 className="text-3xl lg:text-5xl font-bold">
               Trusted by Millions, Built for You
             </h2>
-            <div className="pt-8 flex sm:flex-col md:flex-row justify-center gap-6">
+            <div className="pt-8 flex flex-col md:flex-row justify-center gap-6">
               {cardInfos.map((card) => (
-                <div key={card.heading} className="space-y-3 md:space-y-4 text-center">
+                <div
+                  key={card.heading}
+                  className="space-y-3 md:space-y-4 text-center"
+                >
                   <h6>{card.heading}</h6>
-                  <p className="text-3xl lg:text-6xl font-extrabold">{card.counts}</p>
+                  <p className="text-3xl lg:text-6xl font-extrabold">
+                    {card.counts}
+                  </p>
                   <p>{card.des}</p>
                 </div>
               ))}
