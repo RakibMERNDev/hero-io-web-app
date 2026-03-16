@@ -3,6 +3,9 @@ import "./NavBar.css";
 import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router";
 
+import logo from '../../assets/logo.png'
+
+
 const navLinks = [
   {
     path: "/",
@@ -55,7 +58,7 @@ const NavBar = () => {
         </div>
         <div className="flex justify-center items-center gap-1">
           {/* logo */}
-          <img src="logo.webp" alt="logo" className="max-w-10 max-h-10" />
+          <img src={logo} alt="logo" className="max-w-10 max-h-10" />
           {/* text */}
 
           <p className="text-gradient font-bold">HERO.IO</p>
