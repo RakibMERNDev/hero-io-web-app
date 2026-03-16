@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://picsum.photos/seed/spotify/100/100",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Listen to songs, podcasts, and audiobooks. Discover new music tailored to your taste with personalized playlists and radio stations.",
+    "size": 78.4,
+    "reviews": 14820345,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 148203 },
+      { "name": "2 star", "count": 222305 },
+      { "name": "3 star", "count": 592814 },
+      { "name": "4 star", "count": 2964069 },
+      { "name": "5 star", "count": 10892954 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/notion/100/100",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 2,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Organize your work and life with flexible, connected tools.",
+    "size": 42.1,
+    "reviews": 987452,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 9875 },
+      { "name": "2 star", "count": 14812 },
+      { "name": "3 star", "count": 49373 },
+      { "name": "4 star", "count": 197490 },
+      { "name": "5 star", "count": 715902 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/duolingo/100/100",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 3,
+    "description": "Learn a new language for free. Fun, bite-sized lessons in Spanish, French, Japanese, and 30+ other languages with gamified progress tracking.",
+    "size": 55.7,
+    "reviews": 6532180,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 65322 },
+      { "name": "2 star", "count": 130644 },
+      { "name": "3 star", "count": 326609 },
+      { "name": "4 star", "count": 1306436 },
+      { "name": "5 star", "count": 4703169 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/figma/100/100",
+    "title": "Figma",
+    "companyName": "Figma, Inc.",
+    "id": 4,
+    "description": "Collaborative interface design tool for teams. Create, prototype, and handoff designs in one platform with real-time co-editing.",
+    "size": 31.2,
+    "reviews": 423890,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4239 },
+      { "name": "2 star", "count": 4239 },
+      { "name": "3 star", "count": 16956 },
+      { "name": "4 star", "count": 84778 },
+      { "name": "5 star", "count": 313678 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/todoist/100/100",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 5,
+    "description": "Stay on top of everything with the world's #1 task manager. Organize tasks, set deadlines, and collaborate with your team or family.",
+    "size": 22.8,
+    "reviews": 1102345,
+    "ratingAvg": 4.6,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 11023 },
+      { "name": "2 star", "count": 22047 },
+      { "name": "3 star", "count": 55117 },
+      { "name": "4 star", "count": 220469 },
+      { "name": "5 star", "count": 793689 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/headspace/100/100",
+    "title": "Headspace",
+    "companyName": "Headspace Health",
+    "id": 6,
+    "description": "Meditation and sleep app to help you stress less, focus more, and sleep better. Guided sessions for every level from beginners to experts.",
+    "size": 60.3,
+    "reviews": 2345678,
+    "ratingAvg": 4.7,
+    "downloads": 65000000,
+    "ratings": [
+      { "name": "1 star", "count": 23457 },
+      { "name": "2 star", "count": 46913 },
+      { "name": "3 star", "count": 117284 },
+      { "name": "4 star", "count": 469136 },
+      { "name": "5 star", "count": 1688888 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/robinhood/100/100",
+    "title": "Robinhood",
+    "companyName": "Robinhood Markets, Inc.",
+    "id": 7,
+    "description": "Invest in stocks, ETFs, options, and crypto with zero commission fees. Track your portfolio and get real-time market data on the go.",
+    "size": 89.5,
+    "reviews": 3210987,
+    "ratingAvg": 4.2,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 192659 },
+      { "name": "2 star", "count": 128439 },
+      { "name": "3 star", "count": 257879 },
+      { "name": "4 star", "count": 642197 },
+      { "name": "5 star", "count": 1989813 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/vsco/100/100",
+    "title": "VSCO",
+    "companyName": "VSCO",
+    "id": 8,
+    "description": "Photo and video editor with a growing collection of preset filters and advanced editing tools. Express your creativity and share your story.",
+    "size": 115.6,
+    "reviews": 876543,
+    "ratingAvg": 4.4,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 17531 },
+      { "name": "2 star", "count": 26296 },
+      { "name": "3 star", "count": 87654 },
+      { "name": "4 star", "count": 175309 },
+      { "name": "5 star", "count": 569753 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/myfitnesspal/100/100",
+    "title": "MyFitnessPal",
+    "companyName": "MyFitnessPal, Inc.",
+    "id": 9,
+    "description": "Track calories, macros, and exercise to reach your health goals. Access the world's largest food database with over 14 million items.",
+    "size": 68.9,
+    "reviews": 4567890,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 45679 },
+      { "name": "2 star", "count": 91358 },
+      { "name": "3 star", "count": 228395 },
+      { "name": "4 star", "count": 913578 },
+      { "name": "5 star", "count": 3288880 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/grammarly/100/100",
+    "title": "Grammarly",
+    "companyName": "Grammarly, Inc.",
+    "id": 10,
+    "description": "AI writing assistant that helps you write clearly and correctly. Get real-time grammar, spelling, punctuation, and style suggestions.",
+    "size": 47.3,
+    "reviews": 2098765,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20988 },
+      { "name": "2 star", "count": 41975 },
+      { "name": "3 star", "count": 104938 },
+      { "name": "4 star", "count": 419753 },
+      { "name": "5 star", "count": 1511111 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/canva/100/100",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 11,
+    "description": "Create stunning graphics, presentations, and social media posts with thousands of customizable templates and an intuitive drag-and-drop editor.",
+    "size": 98.2,
+    "reviews": 5432109,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 54321 },
+      { "name": "2 star", "count": 54321 },
+      { "name": "3 star", "count": 271606 },
+      { "name": "4 star", "count": 1086422 },
+      { "name": "5 star", "count": 3965439 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/1password/100/100",
+    "title": "1Password",
+    "companyName": "AgileBits Inc.",
+    "id": 12,
+    "description": "Keep all your passwords, credit cards, and personal information secure and accessible across all your devices with military-grade encryption.",
+    "size": 34.7,
+    "reviews": 654321,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 6543 },
+      { "name": "2 star", "count": 9815 },
+      { "name": "3 star", "count": 32716 },
+      { "name": "4 star", "count": 130864 },
+      { "name": "5 star", "count": 474383 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/strava/100/100",
+    "title": "Strava",
+    "companyName": "Strava, Inc.",
+    "id": 13,
+    "description": "Track your running, cycling, and swimming with GPS. Join millions of athletes, set goals, and get motivated with segment leaderboards and challenges.",
+    "size": 73.5,
+    "reviews": 3345678,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 33457 },
+      { "name": "2 star", "count": 66914 },
+      { "name": "3 star", "count": 167284 },
+      { "name": "4 star", "count": 669136 },
+      { "name": "5 star", "count": 2408887 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/pocket/100/100",
+    "title": "Pocket",
+    "companyName": "Mozilla Corporation",
+    "id": 14,
+    "description": "Save articles, videos, and stories from any publication or website to read or watch later, even offline. Discover personalized recommended content.",
+    "size": 19.4,
+    "reviews": 412340,
+    "ratingAvg": 4.3,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 12370 },
+      { "name": "2 star", "count": 16494 },
+      { "name": "3 star", "count": 49481 },
+      { "name": "4 star", "count": 82468 },
+      { "name": "5 star", "count": 251527 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/zerotier/100/100",
+    "title": "Bear",
+    "companyName": "Shiny Frog Ltd.",
+    "id": 15,
+    "description": "Elegant writing app for notes and long-form content. Flexible tagging system, beautiful themes, and seamless iCloud sync across all Apple devices.",
+    "size": 27.6,
+    "reviews": 231456,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2315 },
+      { "name": "2 star", "count": 2315 },
+      { "name": "3 star", "count": 11573 },
+      { "name": "4 star", "count": 46291 },
+      { "name": "5 star", "count": 168962 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/darksky/100/100",
+    "title": "Weather Underground",
+    "companyName": "The Weather Channel",
+    "id": 16,
+    "description": "Hyperlocal weather forecasts powered by a network of 250,000+ personal weather stations. Get accurate, real-time weather data for your exact location.",
+    "size": 51.8,
+    "reviews": 1876543,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 37531 },
+      { "name": "2 star", "count": 56296 },
+      { "name": "3 star", "count": 150123 },
+      { "name": "4 star", "count": 375309 },
+      { "name": "5 star", "count": 1257284 }
+    ]
+  }
+]
