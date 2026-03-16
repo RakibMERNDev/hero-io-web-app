@@ -5,7 +5,7 @@ import playStore from "../../assets/playstore.png";
 
 const Hero = () => {
   return (
-    <div className="hero pt-3 md:pt-5">
+    <section className="hero pt-3 md:pt-5">
       <div className="hero-content text-center">
         <div className="max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
@@ -53,9 +53,41 @@ const Hero = () => {
               <img src={hero} alt="" />
             </div>
           </div>
+          <div className="bg-gradient-brand py-10 text-white">
+            <h2 className="text-3xl lg:text-5xl font-bold">
+              Trusted by Millions, Built for You
+            </h2>
+            <div className="pt-8 flex sm:flex-col md:flex-row justify-center gap-6">
+              {cardInfos.map((card) => (
+                <div key={card.heading} className="space-y-3 md:space-y-4 text-center">
+                  <h6>{card.heading}</h6>
+                  <p className="text-3xl lg:text-6xl font-extrabold">{card.counts}</p>
+                  <p>{card.des}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Hero;
+
+const cardInfos = [
+  {
+    heading: "Total Downloads",
+    counts: "29.6M",
+    des: "21% more than last month",
+  },
+  {
+    heading: "Total Reviews",
+    counts: "906K",
+    des: "46% more than last month",
+  },
+  {
+    heading: "Active Apps",
+    counts: "132+",
+    des: "31 more will Launch",
+  },
+];
