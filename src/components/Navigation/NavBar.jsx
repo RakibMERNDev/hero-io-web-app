@@ -3,8 +3,7 @@ import "./NavBar.css";
 import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router";
 
-import logo from '../../assets/logo.png'
-
+import logo from "../../assets/logo.png";
 
 const navLinks = [
   {
@@ -76,9 +75,14 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className=" bg-gradient-brand text-white flex items-center px-4 gap-2 py-3 rounded-sm lg:text-xl">
+        <button
+          onClick={() =>
+            window.open("https://github.com/RakibMERNDev", "_blank")
+          }
+          className=" hover:cursor-pointer bg-gradient-brand text-white flex items-center px-4 gap-2 py-3 rounded-sm lg:text-xl"
+        >
           <FaGithub /> <span className="font-semibold ">Contribute</span>
-        </a>
+        </button>
       </div>
     </nav>
   );
